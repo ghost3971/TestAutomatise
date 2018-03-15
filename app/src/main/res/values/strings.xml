@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestAutomatise</string>
+    <string name="button_before">Apres le Click</string>
+    <string name="button_after">Avant le Click</string>
+</resources>

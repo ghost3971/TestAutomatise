@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kossa.testautomatise.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:fontFamily="cursive"
+        android:text="PAGE 1"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afficher un Toast"
+         />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afficher la page 2"
+        />
+
+
+
+</LinearLayout>
