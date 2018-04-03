@@ -41,7 +41,7 @@ public class MainActivityTest {
        assertNotNull(mainActivity.findViewById(R.id.btn1)) ;
        onView(withId(R.id.btn1)).perform(click());
 
-        assertNotNull(mainActivity.findViewById(R.id.btn3)) ;
+        assertNotNull(mainActivity.findViewById(R.id.txt)) ;
         onView(withId(R.id.btn2)).perform(click());
 
         pressBack();
